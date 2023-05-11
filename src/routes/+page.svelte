@@ -9,6 +9,7 @@
 
 <section>
 	<h1>VANDY</h1>
+	<h1>VANDY</h1>
 	<h2>ALVES DA SILVA</h2>
 </section>
 
@@ -47,12 +48,27 @@
 		margin-top: 3%;
 	}
 
+	h1:nth-child(1) {
+		color: transparent;
+		-webkit-text-stroke: 2px var(--color-theme-1);
+	}
+
+	h1:nth-child(2) {
+		position: absolute;
+		top: 122px;
+		color: var(--color-theme-1);
+		animation: animate 4s ease-in-out infinite;
+	}
+
 	@media (min-width: 600px) {
 		h1 {
 			font-size: 10em;
 		}
 		h2 {
 			font-size: 10em;
+		}
+		h1:nth-child(2) {
+			top: 62px;
 		}
 	}
 
@@ -72,6 +88,40 @@
 		}
 		h2 {
 			font-size: 13em;
+		}
+		h1:nth-child(2) {
+			top: 32px;
+		}
+	}
+
+	@keyframes animate {
+		0%,
+		100% {
+			clip-path: polygon(
+				0% 45%,
+				16% 44%,
+				33% 50%,
+				54% 60%,
+				70% 61%,
+				84% 59%,
+				100% 52%,
+				100% 100%,
+				0% 100%
+			);
+		}
+
+		50% {
+			clip-path: polygon(
+				0% 60%,
+				15% 65%,
+				34% 66%,
+				51% 62%,
+				67% 50%,
+				84% 45%,
+				100% 46%,
+				100% 100%,
+				0% 100%
+			);
 		}
 	}
 </style>

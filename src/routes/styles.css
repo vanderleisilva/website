@@ -9,9 +9,9 @@
 :root {
 	--breakpoint-md: 900px;
 	--font-body: 'DM Sans', sans-serif;
-	--color-bg-0: rgb(202, 216, 228);
-	--color-bg-1: hsl(209, 36%, 86%);
-	--color-bg-2: hsl(224, 44%, 95%);
+	--color-bg-0: rgb(255, 255, 255);
+	--color-bg-1: hsl(206, 21%, 87%);
+	--color-bg-2: hsl(240, 100%, 100%);
 	--color-theme-1: #ff3e00;
 	--color-theme-2: #4075a6;
 	--color-text: rgba(0, 0, 0, 0.7);

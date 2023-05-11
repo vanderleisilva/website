@@ -1,13 +1,12 @@
 <p class="first">
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat faucibus turpis, a fringilla
-	nisl venenatis vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat faucibus
-	turpis, a fringilla nisl venenatis vel.
+	Over the years, I have honed my skills and gained valuable experience in various areas of software
+	development. I am well-versed in a wide range of technologies and programming languages, allowing
+	me to adapt quickly to new challenges and requirements.
 </p>
-
 <p>
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat faucibus turpis, a fringilla
-	nisl venenatis vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat faucibus
-	turpis, a fringilla nisl venenatis vel.
+	Whether it's developing a complex backend system or creating a beautiful and intuitive frontend
+	interface, I have the skills and expertise to deliver high-quality solutions that meet the needs
+	of my clients.
 </p>
 <p class="last">
 	<a class="button" target="_blank" href="https://my.visualcv.com/vanderlei-alves-da-silva/"
