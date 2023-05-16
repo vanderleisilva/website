@@ -24,8 +24,8 @@
 			<a href="/contact">{$_('footer.sentence2')}</a>!
 		</p>
 		<p class="certificates">
-			<img src={microsoft} alt="tes" />
-			<img src={csm} alt="tes" />
+			<img src={microsoft} alt={$_('footer.microsoft-cerficate')} />
+			<img class="scrum" src={csm} alt={$_('footer.scrum-certificate')} />
 		</p>
 	</footer>
 </div>
@@ -43,7 +43,7 @@
 		flex-direction: column;
 		padding: 1rem;
 		width: 100%;
-		max-width: 64rem;
+		max-width: 77rem;
 		margin: 0 auto;
 		box-sizing: border-box;
 		padding: 1em;
@@ -65,7 +65,10 @@
 	}
 
 	.certificates img {
-		width: 80px;
+		width: 60px;
+	}
+	.certificates .scrum {
+		width: 50px;
 	}
 	.certificates {
 		position: absolute;

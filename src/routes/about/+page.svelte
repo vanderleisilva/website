@@ -5,8 +5,11 @@
 </script>
 
 <svelte:head>
-	<title>{$_('menu./about')}</title>
-	<meta name="description" content={$_('menu./about')} />
+	<title>{$_('page.title', { values: { page: $_('menu./about') } })}</title>
+	<meta
+		name="description"
+		content={$_('page.description', { values: { page: $_('menu./about') } })}
+	/>
 </svelte:head>
 
 <Tag name={$_('menu./about')}>

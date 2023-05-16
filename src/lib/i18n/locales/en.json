@@ -1,5 +1,9 @@
 {
-	"description": "Vanderlei Alves da Silva",
+	"site-description": "Vanderlei Alves da Silva Software Engineer personal website",
+	"page": {
+		"title": "VAS - {page} page",
+		"description": "Vanderlei Alves da Silva - {page} page"
+	},
 	"menu": {
 		"/": "home",
 		"/articles": "articles",
@@ -11,11 +15,13 @@
 	"home": {
 		"title1": "I'm a Software Engineer with eyes focused on amazing user experiences",
 		"title2": "From the architectural main decions to the font curves, the interest and focus is the same, to get the best out of it",
-		"title3": "Hopefully you will fill it while navigating here",
+		"title3": "Hopefully you will feel it while navigating here",
 		"title4": "And if you like it, drop a message and let's stay in contact"
 	},
 	"footer": {
 		"sentence1": "Let's collaborate and ",
-		"sentence2": " turn your ideas into reality"
+		"sentence2": " turn your ideas into reality",
+		"microsoft-certificate": "Microsoft Certificate",
+		"scrum-certificate": "Scrum Certificate"
 	}
 }
