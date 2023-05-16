@@ -2,13 +2,12 @@
 
 @font-face {
 	font-family: 'Arges';
-	src: url('./arges.woff') format('woff2'), url('myfont.woff') format('woff');
+	src: url('../lib/fonts/arges.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'franklin-gothic-demi-cond-regular';
-	src: url('/FRADMCN.ttf') format('woff'), url('/FRADMCN.ttf') format('opentype'),
-		url('/FRADMCN.ttf') format('truetype');
+	src: url('../lib/fonts/FRADMCN.ttf') url('/FRADMCN.ttf') format('truetype');
 }
 
 :root {
@@ -17,7 +16,7 @@
 	--color-bg-0: rgb(255, 255, 255);
 	--color-bg-1: hsl(206, 21%, 87%);
 	--color-bg-2: hsl(240, 100%, 100%);
-	--color-theme-1: #FF1300;
+	--color-theme-1: #ff1300;
 	--color-theme-2: #4075a6;
 	--color-text: rgba(0, 0, 0, 0.7);
 	--column-width: 42rem;
