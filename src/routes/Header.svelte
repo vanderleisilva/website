@@ -59,7 +59,7 @@
 		display: flex;
 		justify-content: space-between;
 		z-index: 1;
-		--background: rgba(255, 255, 255, 0.7);
+		--background: #FAFAFA;
 	}
 
 	.corner {
@@ -166,6 +166,13 @@
 		}
 		header {
 			display: block;
+		}
+		ul {
+			border-bottom-left-radius: 16px;
+			border-bottom-right-radius: 16px;
+		}
+		svg {
+			display: none;
 		}
 	}
 </style>
