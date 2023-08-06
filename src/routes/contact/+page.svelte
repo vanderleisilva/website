@@ -17,9 +17,3 @@
 		<EN />
 	</div>
 </Tag>
-
-<style>
-	.text-column {
-		gap: 32px;
-	}
-</style>

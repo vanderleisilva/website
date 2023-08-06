@@ -49,6 +49,7 @@
 		padding: 1em;
 		position: relative;
 		justify-content: center;
+		margin-top: 48px;
 	}
 
 	footer {

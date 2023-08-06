@@ -51,6 +51,11 @@
 
 <style>
 	header {
+		position: fixed;
+		top: 0;
+		left: 50%;
+		transform: translate(-50%);
+		width: 100%;
 		display: flex;
 		justify-content: space-between;
 		z-index: 1;

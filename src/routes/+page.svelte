@@ -48,7 +48,7 @@
 		margin-bottom: 0.03em;
 	}
 	h2 {
-		font-size: min(29em, 360px);
+		font-size: min(28.7em, 360px);
 		white-space: nowrap;
 		letter-spacing: 0.008em;
 	}
@@ -86,7 +86,7 @@
 			display: none;
 		}
 		h2 {
-			font-size: 28em;
+			font-size: 27.8em;
 		}
 	}
 

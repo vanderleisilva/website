@@ -33,7 +33,6 @@ body {
 	min-height: 100vh;
 	min-height: 100dvh;
 	background-attachment: fixed;
-	background-color: var(--color-bg-1);
 	background-size: 100vw 100vh;
 	background-size: 100vw 100dvh;
 	background-image: radial-gradient(
@@ -69,8 +68,8 @@ h2 {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin-left: 2rem;
 	font-size: 1.2rem;
+	gap: 32px;
 }
 
 .emoji {
@@ -92,6 +91,9 @@ button:focus:not(:focus-visible) {
 @media (min-width: 720px) {
 	h1 {
 		font-size: 2.4rem;
+	}
+	.text-column {
+		margin-left: 2rem;
 	}
 }
 

@@ -1,6 +1,4 @@
-<p>It's a pleasure to have you here on my corner of the internet! <span class="emoji">❤️</span></p>
-
-<p>Thank you for visiting. I'm glad you're interested in getting in touch.</p>
+<p>Thank you for visiting. I'm glad you're interested in getting in touch. <span class="emoji">❤️</span></p>
 
 <p>
 	If you would like to connect with me on LinkedIn, you can find me <a
