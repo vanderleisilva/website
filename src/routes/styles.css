@@ -61,7 +61,8 @@ h1 {
 }
 
 h2 {
-	font-size: 1rem;
+	font-size: 1.5rem;
+	font-weight: 700;
 }
 
 .text-column {
@@ -82,6 +83,11 @@ input,
 button {
 	font-size: inherit;
 	font-family: inherit;
+}
+
+b {
+	font-weight: 700;
+	font-style: italic;
 }
 
 button:focus:not(:focus-visible) {

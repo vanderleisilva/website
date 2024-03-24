@@ -33,6 +33,9 @@
 			<li aria-current={isSelected('/curriculum')}>
 				<a href="/curriculum">{$_('menu./curriculum')}</a>
 			</li>
+			<li aria-current={isSelected('/projects')}>
+				<a href="/projects">{$_('menu./projects')}</a>
+			</li>
 			<li aria-current={isSelected('/contact')}>
 				<a href="/contact">{$_('menu./contact')}</a>
 			</li>
