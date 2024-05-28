@@ -5,6 +5,7 @@
 	import { scale } from 'svelte/transition';
 	import csm from '$lib/images/csm-certification.png';
 	import microsoft from '$lib/images/microsoft-certification.png';
+	import aws from '$lib/images/aws-certification.png';
 
 	export let data: { pathname: string };
 </script>
@@ -24,7 +25,13 @@
 			<a href="/contact">{$_('footer.sentence2')}</a>!
 		</p>
 		<p class="certificates">
-			<img src={microsoft} alt={$_('footer.microsoft-cerficate')} />
+			<a
+				target="_blank"
+				href="https://www.credly.com/badges/4a70bdb3-4c6a-4c25-9d25-d714c62e0b80/public_url"
+			>
+				<img src={aws} width="55" alt={$_('footer.aws-certificate')} />
+			</a>
+			<img src={microsoft} alt={$_('footer.microsoft-certificate')} />
 			<img class="scrum" src={csm} alt={$_('footer.scrum-certificate')} />
 		</p>
 	</footer>
@@ -75,6 +82,8 @@
 		position: absolute;
 		right: 0;
 		bottom: 0;
+		display: flex;
+		align-items: flex-start;
 	}
 
 	@media (min-width: 480px) {
