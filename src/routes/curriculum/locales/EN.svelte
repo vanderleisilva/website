@@ -9,9 +9,7 @@
 	of my clients.
 </p>
 <p class="last">
-	<a class="button" target="_blank" href="https://my.visualcv.com/vanderlei-alves-da-silva/"
-		>Checkout my CV</a
-	>
+	<a class="button" target="_blank" href="/vanderlei-curriculum.pdf">Checkout my CV</a>
 </p>
 
 <style>
