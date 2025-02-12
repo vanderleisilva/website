@@ -18,23 +18,18 @@
 		/>
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
+		<meta name="description" content="Explore the world of frontend development, software development, and micro frontends with our comprehensive resources and insights." />
+		<meta name="keywords" content="frontend development, software development, micro frontends" />
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-J2QM471HRK"></script>
 		<script>
-			(function (i, s, o, g, r, a, m) {
-				i['GoogleAnalyticsObject'] = r;
-				(i[r] =
-					i[r] ||
-					function () {
-						(i[r].q = i[r].q || []).push(arguments);
-					}),
-					(i[r].l = 1 * new Date());
-				(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-				a.async = 1;
-				a.src = g;
-				m.parentNode.insertBefore(a, m);
-			})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
 
-			ga('create', 'UA-77747638-1', 'auto');
-			ga('send', 'pageview');
+			gtag('config', 'G-J2QM471HRK');
 		</script>
 
 		%sveltekit.head%
