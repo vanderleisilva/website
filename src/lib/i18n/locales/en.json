@@ -1,5 +1,7 @@
 {
 	"site-description": "Vanderlei Alves da Silva Software Engineer personal website",
+	"site-meta-description": "Get the best out of frontend development and software development, get in touch with me.",
+	"keywords": "frontend development, software development, micro frontends",
 	"page": {
 		"title": "VAS - {page} page",
 		"description": "Vanderlei Alves da Silva - {page} page"

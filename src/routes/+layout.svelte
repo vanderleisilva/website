@@ -6,9 +6,22 @@
 	import csm from '$lib/images/csm-certification.png';
 	import microsoft from '$lib/images/microsoft-certification.png';
 	import aws from '$lib/images/aws-certification.png';
+	import profileImg from '$lib/images/profile-sm.jpeg';
 
 	export let data: { pathname: string };
 </script>
+
+<svelte:head>
+	<meta property="og:site_name" content={$_('site-description')} />
+	<meta name="description" content={$_('site-meta-description')} />
+	<meta name="keywords" content={$_('keywords')} />
+	<meta property="og:title" content={$_('site-description')} />
+	<meta property="og:description" content={$_('site-meta-description')} />
+
+	<meta property="og:url" content="https://vanderleialves.com" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content={profileImg} />
+</svelte:head>
 
 <div class="app">
 	<Header />
